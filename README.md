@@ -13,8 +13,7 @@ Python package for the SendOTP API (https://sendotp.msg91.com/).
 ```python
 import sendotp
 
-socket = sokt.sokt('my_api_key')
-otpobj =  sendotp('Autk-Key','my message is {{otp}} keep otp with you.')
+otpobj =  sendotp.sendotp('Autk-Key','my message is {{otp}} keep otp with you.')
 
 
 print otpobj.send(919981534313,'msgind')
