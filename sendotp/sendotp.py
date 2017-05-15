@@ -44,7 +44,7 @@ class sendotp:
           'retrytype' : retrytype
           }
 		print values
-		# response = self.call('retryotp.php',values)
+		response = self.call('retryotp.php',values)
 		return;
 
 
