@@ -15,8 +15,8 @@ import sendotp
 
 otpobj =  sendotp.sendotp('Autk-Key','my message is {{otp}} keep otp with you.')
 
-
-print otpobj.send(919981534313,'msgind')
+# 3245 is the otp to send
+print otpobj.send(919981534313,'msgind',3245)
 
 print otpobj.verify(910000000000,3245)
 
