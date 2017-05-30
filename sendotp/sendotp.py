@@ -59,7 +59,7 @@ class sendotp:
 
 	def call(self,actionurl,args) :
 		url = self.actionURLBuilder(actionurl)
-		print url
+		print (url)
 		payload = (args)
 
 		response = requests.post(url,data=payload, verify=False)
