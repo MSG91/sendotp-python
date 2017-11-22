@@ -3,7 +3,7 @@ import requests
 from random import randint
 
 
-class SendOTP:
+class sendotp:
 
     def __init__(self, key, msg):
 
