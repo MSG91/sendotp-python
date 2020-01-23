@@ -8,4 +8,5 @@ setup(name='sendotp',
       author_email='rahul@walkover.in',
       license='MIT',
       packages=['sendotp'],
+      install_requires=['requests']
       zip_safe=False)
