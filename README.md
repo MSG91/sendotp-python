@@ -11,7 +11,7 @@ Python package for the SendOTP API (https://sendotp.msg91.com/).
 ## Basic Usage
 
 ```python
-import sendotp
+from sendotp import sendotp
 
 otpobj =  sendotp.sendotp('Autk-Key','my message is {{otp}} keep otp with you.')
 
